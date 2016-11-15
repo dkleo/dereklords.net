@@ -45,7 +45,7 @@
             <div class="banner-content">
                 <cfoutput>
                 <img src="/assets/img/lucee-logo.png" alt="Lucee">
-                <h1>Do you need a ColdFusion expert to enhance and troubleshoot your existing Coldfusion website?</h1>
+                <h1>For IMMEDIATE help with Coldfusion or Wordpress call (917) 579-2367.</h1>
                 <p class="lead-text">This free site is running Lucee #server.lucee.version# on Heroku!  Get yours today!</p>
                 </cfoutput>
             </div>
