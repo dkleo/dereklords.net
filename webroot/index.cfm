@@ -32,9 +32,10 @@
                     Top Navigation
                        <nav role="navigation" class="main-navigation">
                         <ul class="nav navbar-nav">
-                            <li><a href="/">Home</a></li>
-                            <li class="active "><a href="http://lucee.dev1.pixl8-hosting.co.uk/supporters.html">Supporters</a></li>
-                            <li class=""><a href="http://lucee.dev1.pixl8-hosting.co.uk/about.html">About</a></li>
+                            <li class="active"><a href="/">Home</a></li>
+                            <li class=""><a href="javascript:void(0)">Services</a></li>
+                            <li class=""><a href="javascript:void(0)">Portfolio</a></li>
+                            <li class=""><a href="javascript:void(0)">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="clearfix"></div>
