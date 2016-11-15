@@ -19,6 +19,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800">
         <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/lib/ie8.css"><![endif]-->
         <link rel="stylesheet" type="text/css" href="/assets/css/core/_ed07b761.core.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
