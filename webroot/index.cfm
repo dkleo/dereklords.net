@@ -11,7 +11,10 @@
 </cfscript><!DOCTYPE html>
 <html>
     <head>
-        <title>Portland Coldfusion Developer | Wordpress Plugins - Themes - Facebook Apps</title>
+        <title>Derek Lords | Web Applications Developer & Information Security Analyst in Portland, OR</title>
+        <meta name="description" content="Immediate Web Application Troubleshooting and Development; Information Security Analysis in Portland, OR">
+        <meta name="keywords" content="Coldfusion,InfoSec,Information Security,Wordpress,PHP,Pen Testing">
+        <meta name="author" content="Derek Lords">
         <link rel="stylesheet" type="text/css" href="/assets/css/lib/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800">
         <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/lib/ie8.css"><![endif]-->
@@ -46,8 +49,8 @@
             <div class="banner-content">
                 <cfoutput>
                 <img src="/assets/img/lucee-logo.png" alt="Lucee">
-                <h1>For IMMEDIATE help with Coldfusion or Wordpress call (917) 579-2367.</h1>
-                <p class="lead-text">This free site is running Lucee #server.lucee.version# on Heroku!  Get yours today!</p>
+                <h1>For IMMEDIATE help with a Coldfusion or Wordpress website call (917) 579-2367.</h1>
+                <p class="lead-text">This classy site is running Lucee #server.lucee.version# on Heroku! Start your free trial today!</p>
                 </cfoutput>
             </div>
         </div>
