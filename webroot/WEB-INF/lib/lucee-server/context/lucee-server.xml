@@ -8,7 +8,7 @@ Path placeholders:
 	{system-directory}: path to thesystem directory
 	{web-context-hash}: hash of the web context
 
---><cfLuceeConfiguration salt="BC2BBBBE-1AA4-44EA-9074D4AE55808E04" version="4.5">
+--><cfLuceeConfiguration hspw="1553c23b4d0f6b3e6c41df377a4cc6ac446c8561091a341c0d35b77708b5dae8" salt="BC2BBBBE-1AA4-44EA-9074D4AE55808E04" version="4.5"><cfabort/>
 
 	<!--
 	system:

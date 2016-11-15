@@ -23,7 +23,7 @@
 	</head>
 	<body class="sub-page">
 		<div class="main-wrapper">
-			<!-- <header id="masthead" class="branding" role="banner">
+			 <header id="masthead" class="branding" role="banner">
 				<div class="container top-header">
 		            <h1 class="site-logo">
 		                <a href="/">
@@ -42,7 +42,7 @@
 					</nav>
 					<div class="clearfix"></div>
 		        </div>
-		 	</header> -->
+		 	</header> 
 
 
 
