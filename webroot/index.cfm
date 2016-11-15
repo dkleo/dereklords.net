@@ -51,6 +51,7 @@
                 <img src="/assets/img/lucee-logo.png" alt="Lucee">
                 <h1>For IMMEDIATE help with a Coldfusion or Wordpress website call (917) 579-2367.</h1>
                 <p class="lead-text">This classy site is running Lucee #server.lucee.version# on Heroku! Start your free trial today!</p>
+                <p class="lead-text">Start your <a href="javascript:void(0)">free trial</a> today!</p>
                 </cfoutput>
             </div>
         </div>
