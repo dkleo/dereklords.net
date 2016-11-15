@@ -12,8 +12,13 @@
     <!-- interval to check urlrewrite.xml config in seconds, or 0 for every request, -1 for never -->
     <init-param>
         <param-name>confReloadCheckInterval</param-name>
-        <param-value>-1</param-value>
-    </init-param>    
+        <param-value>0</param-value>
+    </init-param>
+
+     <init-param>
+            <param-name>confPath</param-name>
+            <param-value>/urlrewrite.xml</param-value>
+    </init-param>
 
     <!-- TRACE, DEBUG, INFO, WARN, ERROR, FATAL -->
     <init-param>
@@ -30,35 +35,36 @@
 
   <filter-mapping>
     <filter-name>UrlRewriteFilter</filter-name>
-    <url-pattern>/*</url-pattern>
+    <url-pattern>*</url-pattern>
     <dispatcher>REQUEST</dispatcher>
   </filter-mapping>
 
 
   <servlet id="Railo">
     <description>Railo CFML Engine</description>
-    <servlet-name>CFMLServlet</servlet-name>    
+    <servlet-name>CFMLServlet</servlet-name>
     <servlet-class>railo.loader.servlet.CFMLServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
-  
+
   <servlet-mapping>
     <servlet-name>CFMLServlet</servlet-name>
     <url-pattern>*.cfc</url-pattern>
     <url-pattern>*.cfm</url-pattern>
-    <url-pattern>*.cfml</url-pattern>   
+    <url-pattern>*.cfml</url-pattern>
     <url-pattern>/index.cfc/*</url-pattern>
     <url-pattern>/index.cfm/*</url-pattern>
     <url-pattern>/index.cfml/*</url-pattern>
+
   </servlet-mapping>
 
 
   <servlet id="RESTServlet">
     <description>Railo Servlet for RESTful services</description>
-    <servlet-name>RESTServlet</servlet-name>    
+    <servlet-name>RESTServlet</servlet-name>
     <servlet-class>railo.loader.servlet.RestServlet</servlet-class>
     <load-on-startup>2</load-on-startup>
-  </servlet>  
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>RESTServlet</servlet-name>
